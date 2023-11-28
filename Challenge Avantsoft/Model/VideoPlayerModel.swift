@@ -13,9 +13,11 @@ struct Look: Identifiable, Decodable {
     let body: String
     let profilePictureURL: URL
     let username: String
+    let songURL: URL
 
     enum CodingKeys: String, CodingKey {
-        case id, compressedForIOSURL = "compressed_for_ios_url", body, profilePictureURL = "profile_picture_url", username
+        case id, compressedForIOSURL = "compressed_for_ios_url", body, profilePictureURL = "profile_picture_url", username, songURL = "song_url"
     }
 }
+
 

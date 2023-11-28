@@ -15,6 +15,9 @@
 		CDAA0BC42B1575F20026B3A0 /* VideoPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BC32B1575F20026B3A0 /* VideoPlayerViewModel.swift */; };
 		CDAA0BC72B15788A0026B3A0 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BC62B15788A0026B3A0 /* Parser.swift */; };
 		CDAA0BC92B1579000026B3A0 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BC82B1579000026B3A0 /* Helpers.swift */; };
+		CDAA0BD12B1614A40026B3A0 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BD02B1614A40026B3A0 /* DetailsView.swift */; };
+		CDAA0BD72B1625D60026B3A0 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BD62B1625D60026B3A0 /* FeedView.swift */; };
+		CDAA0BDF2B1636440026B3A0 /* ReactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BDE2B1636440026B3A0 /* ReactionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		CDAA0BC32B1575F20026B3A0 /* VideoPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewModel.swift; sourceTree = "<group>"; };
 		CDAA0BC62B15788A0026B3A0 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		CDAA0BC82B1579000026B3A0 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		CDAA0BD02B1614A40026B3A0 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		CDAA0BD62B1625D60026B3A0 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		CDAA0BDE2B1636440026B3A0 /* ReactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,9 @@
 			isa = PBXGroup;
 			children = (
 				CDAA0BAA2B155AAA0026B3A0 /* VideoPlayerView.swift */,
+				CDAA0BD02B1614A40026B3A0 /* DetailsView.swift */,
+				CDAA0BD62B1625D60026B3A0 /* FeedView.swift */,
+				CDAA0BDE2B1636440026B3A0 /* ReactionsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -215,12 +224,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDAA0BD72B1625D60026B3A0 /* FeedView.swift in Sources */,
 				CDAA0BAB2B155AAA0026B3A0 /* VideoPlayerView.swift in Sources */,
+				CDAA0BD12B1614A40026B3A0 /* DetailsView.swift in Sources */,
 				CDAA0BC92B1579000026B3A0 /* Helpers.swift in Sources */,
 				CDAA0BC42B1575F20026B3A0 /* VideoPlayerViewModel.swift in Sources */,
 				CDAA0BC72B15788A0026B3A0 /* Parser.swift in Sources */,
 				CDAA0BC12B1573E60026B3A0 /* VideoPlayerModel.swift in Sources */,
 				CDAA0BA92B155AAA0026B3A0 /* Challenge_AvantsoftApp.swift in Sources */,
+				CDAA0BDF2B1636440026B3A0 /* ReactionsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

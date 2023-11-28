@@ -10,17 +10,26 @@ import AVKit
 
 struct VideoPlayerView: View {
     @ObservedObject var viewModel: VideoPlayerViewModel
+    var look: Look
 
-    init(viewModel: VideoPlayerViewModel) {
+    init(viewModel: VideoPlayerViewModel, look: Look) {
         self.viewModel = viewModel
+        self.look = look
     }
 
     var body: some View {
-        VideoPlayerViewControllerRepresentable(viewModel: viewModel)
-            .edgesIgnoringSafeArea(.all)
-            .onAppear {
-                viewModel.player?.play()
+        ZStack {
+            VideoPlayerViewControllerRepresentable(viewModel: viewModel)
+                .edgesIgnoringSafeArea(.all)
+                .onAppear {
+                    viewModel.player?.play()
+                }
+            VStack {
+                DetailsView(look: look)
+                Spacer()
             }
+            ReactionsView()
+        }
     }
 }
 
@@ -31,6 +40,9 @@ struct VideoPlayerViewControllerRepresentable: UIViewControllerRepresentable {
         let controller = AVPlayerViewController()
         controller.player = viewModel.player
         controller.showsPlaybackControls = false
+        controller.exitsFullScreenWhenPlaybackEnds = true
+        controller.allowsPictureInPicturePlayback = true
+        controller.videoGravity = .resizeAspectFill
         
         return controller
     }
