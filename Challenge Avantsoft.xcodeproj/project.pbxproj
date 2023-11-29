@@ -7,21 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CDAA0BA92B155AAA0026B3A0 /* Challenge_AvantsoftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BA82B155AAA0026B3A0 /* Challenge_AvantsoftApp.swift */; };
-		CDAA0BAB2B155AAA0026B3A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BAA2B155AAA0026B3A0 /* ContentView.swift */; };
+		CD28EE722B1667310021A7D1 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD28EE712B1667310021A7D1 /* SwipeView.swift */; };
+		CD28EE742B1671B20021A7D1 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD28EE732B1671B20021A7D1 /* FeedView.swift */; };
+		CD28EE8A2B17832C0021A7D1 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = CDAA0BBD2B1566430026B3A0 /* data.json */; };
+		CD28EE922B178BAF0021A7D1 /* Challenge_AvantsoftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD28EE912B178BAF0021A7D1 /* Challenge_AvantsoftTests.swift */; };
+		CDAA0BA92B155AAA0026B3A0 /* ChallengeAvantsoftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BA82B155AAA0026B3A0 /* ChallengeAvantsoftApp.swift */; };
+		CDAA0BAB2B155AAA0026B3A0 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BAA2B155AAA0026B3A0 /* VideoPlayerView.swift */; };
 		CDAA0BAD2B155AAD0026B3A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAA0BAC2B155AAD0026B3A0 /* Assets.xcassets */; };
 		CDAA0BB02B155AAD0026B3A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAA0BAF2B155AAD0026B3A0 /* Preview Assets.xcassets */; };
+		CDAA0BC12B1573E60026B3A0 /* VideoPlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BC02B1573E60026B3A0 /* VideoPlayerModel.swift */; };
+		CDAA0BC42B1575F20026B3A0 /* VideoPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BC32B1575F20026B3A0 /* VideoPlayerViewModel.swift */; };
+		CDAA0BC72B15788A0026B3A0 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BC62B15788A0026B3A0 /* Parser.swift */; };
+		CDAA0BC92B1579000026B3A0 /* LooksDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BC82B1579000026B3A0 /* LooksDecodable.swift */; };
+		CDAA0BD12B1614A40026B3A0 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BD02B1614A40026B3A0 /* DetailsView.swift */; };
+		CDAA0BD72B1625D60026B3A0 /* FeedCellComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BD62B1625D60026B3A0 /* FeedCellComponent.swift */; };
+		CDAA0BE12B163EEB0026B3A0 /* ReactionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BE02B163EEB0026B3A0 /* ReactionsModel.swift */; };
+		CDAA0BE32B163F870026B3A0 /* ReactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BE22B163F870026B3A0 /* ReactionsViewModel.swift */; };
+		CDAA0BE52B163FE40026B3A0 /* ReactionButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BE42B163FE40026B3A0 /* ReactionButtonComponent.swift */; };
+		CDAA0BE82B1649AE0026B3A0 /* ReactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BE72B1649AE0026B3A0 /* ReactionsView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CD28EE822B176E300021A7D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDAA0B9D2B155AAA0026B3A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDAA0BA42B155AAA0026B3A0;
+			remoteInfo = "Challenge Avantsoft";
+		};
+		CD28EE932B178BAF0021A7D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDAA0B9D2B155AAA0026B3A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDAA0BA42B155AAA0026B3A0;
+			remoteInfo = "Challenge Avantsoft";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		CD28EE712B1667310021A7D1 /* SwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		CD28EE732B1671B20021A7D1 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		CD28EE7C2B176E300021A7D1 /* Challenge AvantsoftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Challenge AvantsoftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD28EE8F2B178BAE0021A7D1 /* Challenge AvantsoftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Challenge AvantsoftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD28EE912B178BAF0021A7D1 /* Challenge_AvantsoftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_AvantsoftTests.swift; sourceTree = "<group>"; };
 		CDAA0BA52B155AAA0026B3A0 /* Challenge Avantsoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Challenge Avantsoft.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDAA0BA82B155AAA0026B3A0 /* Challenge_AvantsoftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_AvantsoftApp.swift; sourceTree = "<group>"; };
-		CDAA0BAA2B155AAA0026B3A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDAA0BA82B155AAA0026B3A0 /* ChallengeAvantsoftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeAvantsoftApp.swift; sourceTree = "<group>"; };
+		CDAA0BAA2B155AAA0026B3A0 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		CDAA0BAC2B155AAD0026B3A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDAA0BAF2B155AAD0026B3A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDAA0BBD2B1566430026B3A0 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		CDAA0BC02B1573E60026B3A0 /* VideoPlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerModel.swift; sourceTree = "<group>"; };
+		CDAA0BC32B1575F20026B3A0 /* VideoPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewModel.swift; sourceTree = "<group>"; };
+		CDAA0BC62B15788A0026B3A0 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		CDAA0BC82B1579000026B3A0 /* LooksDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooksDecodable.swift; sourceTree = "<group>"; };
+		CDAA0BD02B1614A40026B3A0 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		CDAA0BD62B1625D60026B3A0 /* FeedCellComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCellComponent.swift; sourceTree = "<group>"; };
+		CDAA0BE02B163EEB0026B3A0 /* ReactionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionsModel.swift; sourceTree = "<group>"; };
+		CDAA0BE22B163F870026B3A0 /* ReactionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionsViewModel.swift; sourceTree = "<group>"; };
+		CDAA0BE42B163FE40026B3A0 /* ReactionButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionButtonComponent.swift; sourceTree = "<group>"; };
+		CDAA0BE72B1649AE0026B3A0 /* ReactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CD28EE792B176E300021A7D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD28EE8C2B178BAE0021A7D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CDAA0BA22B155AAA0026B3A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +93,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD28EE902B178BAF0021A7D1 /* Challenge AvantsoftTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD28EE912B178BAF0021A7D1 /* Challenge_AvantsoftTests.swift */,
+			);
+			path = "Challenge AvantsoftTests";
+			sourceTree = "<group>";
+		};
 		CDAA0B9C2B155AAA0026B3A0 = {
 			isa = PBXGroup;
 			children = (
 				CDAA0BA72B155AAA0026B3A0 /* Challenge Avantsoft */,
+				CD28EE902B178BAF0021A7D1 /* Challenge AvantsoftTests */,
 				CDAA0BA62B155AAA0026B3A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				CDAA0BA52B155AAA0026B3A0 /* Challenge Avantsoft.app */,
+				CD28EE7C2B176E300021A7D1 /* Challenge AvantsoftUITests.xctest */,
+				CD28EE8F2B178BAE0021A7D1 /* Challenge AvantsoftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,9 +123,13 @@
 		CDAA0BA72B155AAA0026B3A0 /* Challenge Avantsoft */ = {
 			isa = PBXGroup;
 			children = (
-				CDAA0BA82B155AAA0026B3A0 /* Challenge_AvantsoftApp.swift */,
-				CDAA0BAA2B155AAA0026B3A0 /* ContentView.swift */,
-				CDAA0BAC2B155AAD0026B3A0 /* Assets.xcassets */,
+				CDAA0BBC2B1562930026B3A0 /* App */,
+				CDAA0BC52B15785B0026B3A0 /* Json */,
+				CDAA0BBB2B1562610026B3A0 /* Utils */,
+				CDAA0BB72B15623D0026B3A0 /* Resource */,
+				CDAA0BB82B1562450026B3A0 /* Model */,
+				CDAA0BB92B15624D0026B3A0 /* View */,
+				CDAA0BBA2B1562570026B3A0 /* ViewModel */,
 				CDAA0BAE2B155AAD0026B3A0 /* Preview Content */,
 			);
 			path = "Challenge Avantsoft";
@@ -67,9 +143,126 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CDAA0BB62B155E3D0026B3A0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CDAA0BBD2B1566430026B3A0 /* data.json */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CDAA0BB72B15623D0026B3A0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CDAA0BAC2B155AAD0026B3A0 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CDAA0BB82B1562450026B3A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDAA0BC02B1573E60026B3A0 /* VideoPlayerModel.swift */,
+				CDAA0BE02B163EEB0026B3A0 /* ReactionsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDAA0BB92B15624D0026B3A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDAA0BE62B1647750026B3A0 /* Components */,
+				CDAA0BAA2B155AAA0026B3A0 /* VideoPlayerView.swift */,
+				CDAA0BD02B1614A40026B3A0 /* DetailsView.swift */,
+				CDAA0BE72B1649AE0026B3A0 /* ReactionsView.swift */,
+				CD28EE712B1667310021A7D1 /* SwipeView.swift */,
+				CD28EE732B1671B20021A7D1 /* FeedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDAA0BBA2B1562570026B3A0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CDAA0BC32B1575F20026B3A0 /* VideoPlayerViewModel.swift */,
+				CDAA0BE22B163F870026B3A0 /* ReactionsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CDAA0BBB2B1562610026B3A0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CDAA0BC82B1579000026B3A0 /* LooksDecodable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CDAA0BBC2B1562930026B3A0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CDAA0BA82B155AAA0026B3A0 /* ChallengeAvantsoftApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CDAA0BC52B15785B0026B3A0 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				CDAA0BB62B155E3D0026B3A0 /* Network */,
+				CDAA0BC62B15788A0026B3A0 /* Parser.swift */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		CDAA0BE62B1647750026B3A0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CDAA0BD62B1625D60026B3A0 /* FeedCellComponent.swift */,
+				CDAA0BE42B163FE40026B3A0 /* ReactionButtonComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CD28EE7B2B176E300021A7D1 /* Challenge AvantsoftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD28EE842B176E300021A7D1 /* Build configuration list for PBXNativeTarget "Challenge AvantsoftUITests" */;
+			buildPhases = (
+				CD28EE782B176E300021A7D1 /* Sources */,
+				CD28EE792B176E300021A7D1 /* Frameworks */,
+				CD28EE7A2B176E300021A7D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD28EE832B176E300021A7D1 /* PBXTargetDependency */,
+			);
+			name = "Challenge AvantsoftUITests";
+			productName = "Challenge AvantsoftUITests";
+			productReference = CD28EE7C2B176E300021A7D1 /* Challenge AvantsoftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CD28EE8E2B178BAE0021A7D1 /* Challenge AvantsoftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD28EE952B178BAF0021A7D1 /* Build configuration list for PBXNativeTarget "Challenge AvantsoftTests" */;
+			buildPhases = (
+				CD28EE8B2B178BAE0021A7D1 /* Sources */,
+				CD28EE8C2B178BAE0021A7D1 /* Frameworks */,
+				CD28EE8D2B178BAE0021A7D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD28EE942B178BAF0021A7D1 /* PBXTargetDependency */,
+			);
+			name = "Challenge AvantsoftTests";
+			productName = "Challenge AvantsoftTests";
+			productReference = CD28EE8F2B178BAE0021A7D1 /* Challenge AvantsoftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		CDAA0BA42B155AAA0026B3A0 /* Challenge Avantsoft */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDAA0BB32B155AAD0026B3A0 /* Build configuration list for PBXNativeTarget "Challenge Avantsoft" */;
@@ -97,6 +290,15 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					CD28EE7B2B176E300021A7D1 = {
+						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
+						TestTargetID = CDAA0BA42B155AAA0026B3A0;
+					};
+					CD28EE8E2B178BAE0021A7D1 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = CDAA0BA42B155AAA0026B3A0;
+					};
 					CDAA0BA42B155AAA0026B3A0 = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -116,16 +318,33 @@
 			projectRoot = "";
 			targets = (
 				CDAA0BA42B155AAA0026B3A0 /* Challenge Avantsoft */,
+				CD28EE7B2B176E300021A7D1 /* Challenge AvantsoftUITests */,
+				CD28EE8E2B178BAE0021A7D1 /* Challenge AvantsoftTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CD28EE7A2B176E300021A7D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD28EE8D2B178BAE0021A7D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CDAA0BA32B155AAA0026B3A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CDAA0BB02B155AAD0026B3A0 /* Preview Assets.xcassets in Resources */,
+				CD28EE8A2B17832C0021A7D1 /* data.json in Resources */,
 				CDAA0BAD2B155AAD0026B3A0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,18 +352,137 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CD28EE782B176E300021A7D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD28EE8B2B178BAE0021A7D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD28EE922B178BAF0021A7D1 /* Challenge_AvantsoftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CDAA0BA12B155AAA0026B3A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDAA0BAB2B155AAA0026B3A0 /* ContentView.swift in Sources */,
-				CDAA0BA92B155AAA0026B3A0 /* Challenge_AvantsoftApp.swift in Sources */,
+				CDAA0BE32B163F870026B3A0 /* ReactionsViewModel.swift in Sources */,
+				CDAA0BE82B1649AE0026B3A0 /* ReactionsView.swift in Sources */,
+				CDAA0BD72B1625D60026B3A0 /* FeedCellComponent.swift in Sources */,
+				CDAA0BE12B163EEB0026B3A0 /* ReactionsModel.swift in Sources */,
+				CD28EE722B1667310021A7D1 /* SwipeView.swift in Sources */,
+				CDAA0BE52B163FE40026B3A0 /* ReactionButtonComponent.swift in Sources */,
+				CDAA0BAB2B155AAA0026B3A0 /* VideoPlayerView.swift in Sources */,
+				CDAA0BD12B1614A40026B3A0 /* DetailsView.swift in Sources */,
+				CDAA0BC92B1579000026B3A0 /* LooksDecodable.swift in Sources */,
+				CD28EE742B1671B20021A7D1 /* FeedView.swift in Sources */,
+				CDAA0BC42B1575F20026B3A0 /* VideoPlayerViewModel.swift in Sources */,
+				CDAA0BC72B15788A0026B3A0 /* Parser.swift in Sources */,
+				CDAA0BC12B1573E60026B3A0 /* VideoPlayerModel.swift in Sources */,
+				CDAA0BA92B155AAA0026B3A0 /* ChallengeAvantsoftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		CD28EE832B176E300021A7D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDAA0BA42B155AAA0026B3A0 /* Challenge Avantsoft */;
+			targetProxy = CD28EE822B176E300021A7D1 /* PBXContainerItemProxy */;
+		};
+		CD28EE942B178BAF0021A7D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDAA0BA42B155AAA0026B3A0 /* Challenge Avantsoft */;
+			targetProxy = CD28EE932B178BAF0021A7D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		CD28EE852B176E300021A7D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9HBFB9D4T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victorbrito..Challenge-AvantsoftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Challenge Avantsoft";
+			};
+			name = Debug;
+		};
+		CD28EE862B176E300021A7D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9HBFB9D4T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victorbrito..Challenge-AvantsoftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Challenge Avantsoft";
+			};
+			name = Release;
+		};
+		CD28EE962B178BAF0021A7D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9HBFB9D4T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victorbrito..Challenge-AvantsoftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Challenge Avantsoft.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Challenge Avantsoft";
+			};
+			name = Debug;
+		};
+		CD28EE972B178BAF0021A7D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9HBFB9D4T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victorbrito..Challenge-AvantsoftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Challenge Avantsoft.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Challenge Avantsoft";
+			};
+			name = Release;
+		};
 		CDAA0BB12B155AAD0026B3A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -282,6 +620,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.victorbrito..Challenge-Avantsoft";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,6 +652,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.victorbrito..Challenge-Avantsoft";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,6 +664,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CD28EE842B176E300021A7D1 /* Build configuration list for PBXNativeTarget "Challenge AvantsoftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD28EE852B176E300021A7D1 /* Debug */,
+				CD28EE862B176E300021A7D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD28EE952B178BAF0021A7D1 /* Build configuration list for PBXNativeTarget "Challenge AvantsoftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD28EE962B178BAF0021A7D1 /* Debug */,
+				CD28EE972B178BAF0021A7D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CDAA0BA02B155AAA0026B3A0 /* Build configuration list for PBXProject "Challenge Avantsoft" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
