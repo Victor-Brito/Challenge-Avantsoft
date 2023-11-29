@@ -1,5 +1,5 @@
 //
-//  Helpers.swift
+//  LooksDecodable.swift
 //  Challenge Avantsoft
 //
 //  Created by Victor Brito on 27/11/23.

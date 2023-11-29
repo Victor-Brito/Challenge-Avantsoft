@@ -13,15 +13,15 @@ struct ReactionsView: View {
         VStack {
             Spacer()
             HStack {
-                ReactionButtonComponent(symbol: "heart.fill", count: viewModel.heartCount) {
+                ReactionButtonComponent(symbol: "heart", count: viewModel.heartCount, action: {
                     viewModel.incrementHeart()
-                }
-
+                }, buttonColor: .red)
+                
                 Spacer()
-
-                ReactionButtonComponent(symbol: "flame.fill", count: viewModel.fireCount) {
+                
+                ReactionButtonComponent(symbol: "flame", count: viewModel.fireCount, action: {
                     viewModel.incrementFire()
-                }
+                }, buttonColor: .yellow)
             }
         }
         .padding(.bottom, 40)

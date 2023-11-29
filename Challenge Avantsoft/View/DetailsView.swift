@@ -4,7 +4,6 @@
 //
 //  Created by Victor Brito on 28/11/23.
 //
-
 import SwiftUI
 
 struct DetailsView: View {
@@ -12,7 +11,7 @@ struct DetailsView: View {
 
     var body: some View {
         HStack {
-                // Comentar isso aqui, pois é importante. O asyncimage é utilizado pois sem ele o app carrega dados da URL na thread principal, podendo acarretar em bloqueio de interface
+                ///O asyncimage é utilizado pois sem ele o app carrega dados da URL na thread principal, podendo acarretar em bloqueio de interface
                 AsyncImage(url: look.profilePictureURL) { phase in
                     switch phase {
                     case .empty:

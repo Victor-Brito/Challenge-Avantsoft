@@ -4,7 +4,6 @@
 //
 //  Created by Victor Brito on 27/11/23.
 //
-
 import SwiftUI
 import AVKit
 
@@ -35,6 +34,7 @@ struct VideoPlayerView: View {
     }
 }
 
+/// Essa UIRepresentable é responsável por desativar a timeline do vídeo e transformar em fullscreen
 struct VideoPlayerViewControllerRepresentable: UIViewControllerRepresentable {
     @ObservedObject var viewModel: VideoPlayerViewModel
 
