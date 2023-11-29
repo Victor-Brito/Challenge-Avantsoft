@@ -6,9 +6,9 @@ Create a simple app featuring a TikTok like video feed
 
 ## Notas
 
-- The most updated branch is main
-- Some comments within the code are in Portuguese to facilitate review
-- The minimum target for the project is IOS 16.4The minimum target for the project is IOS 16.4
+- A branch mais atualizada é a main
+- Comentários feito em portugués para facilitar o code review
+- O target mínimo de IOS é IOS 16.4
 
 
 
