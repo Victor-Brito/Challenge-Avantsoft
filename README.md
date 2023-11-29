@@ -8,7 +8,7 @@ Create a simple app featuring a TikTok like video feed
 
 - A branch mais atualizada é a main
 - Comentários feito em portugués para facilitar o code review
-- O target mínimo de IOS é IOS 16.4
+- O target mínimo é IOS 16.4
 
 
 
@@ -19,6 +19,7 @@ O projeto simula um feed do aplicativo TikTok, onde através de um arquivo .json
 
 ## Checklist
 - Vídeo by .Json ✅
+- Vídeo em tela cheia ✅
 - Vídeo loop ✅
 - Foto de usuário by .json ✅
 - Título do vídeo by .json ✅
