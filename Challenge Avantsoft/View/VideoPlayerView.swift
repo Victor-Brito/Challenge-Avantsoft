@@ -10,6 +10,7 @@ import AVKit
 
 struct VideoPlayerView: View {
     @ObservedObject var viewModel: VideoPlayerViewModel
+    
     var look: Look
 
     init(viewModel: VideoPlayerViewModel, look: Look) {
@@ -28,6 +29,7 @@ struct VideoPlayerView: View {
                 DetailsView(look: look)
                 Spacer()
             }
+            
             ReactionsView()
         }
     }

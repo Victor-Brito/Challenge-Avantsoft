@@ -11,7 +11,7 @@ struct DetailsView: View {
     var look: Look
 
     var body: some View {
-            HStack {
+        HStack {
                 // Comentar isso aqui, pois é importante. O asyncimage é utilizado pois sem ele o app carrega dados da URL na thread principal, podendo acarretar em bloqueio de interface
                 AsyncImage(url: look.profilePictureURL) { phase in
                     switch phase {
