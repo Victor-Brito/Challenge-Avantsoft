@@ -9,6 +9,7 @@ Create a simple app featuring a TikTok like video feed
 - A branch mais atualizada é a main
 - Comentários feito em portugués para facilitar o code review
 - O target mínimo é IOS 16.4
+- O teste foi refatorado no dia 12/04/2024 O objetivo desse refactor foi criar mais testes unitários e extinguir os magic numbers no código, criando uma parte específica para as constantes
 
 
 
