@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Look: Identifiable, Decodable {
+struct Look: Identifiable, Decodable, Hashable {
     let id: Int
     let compressedForIOSURL: URL
     let body: String

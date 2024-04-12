@@ -29,6 +29,7 @@
 		CDAA0BE32B163F870026B3A0 /* ReactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BE22B163F870026B3A0 /* ReactionsViewModel.swift */; };
 		CDAA0BE52B163FE40026B3A0 /* ReactionButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BE42B163FE40026B3A0 /* ReactionButtonComponent.swift */; };
 		CDAA0BE82B1649AE0026B3A0 /* ReactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BE72B1649AE0026B3A0 /* ReactionsView.swift */; };
+		CDFC71972BC9DCB000AB1EE0 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC71962BC9DCB000AB1EE0 /* FeedViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		CDAA0BE22B163F870026B3A0 /* ReactionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionsViewModel.swift; sourceTree = "<group>"; };
 		CDAA0BE42B163FE40026B3A0 /* ReactionButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionButtonComponent.swift; sourceTree = "<group>"; };
 		CDAA0BE72B1649AE0026B3A0 /* ReactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionsView.swift; sourceTree = "<group>"; };
+		CDFC71962BC9DCB000AB1EE0 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 			children = (
 				CDAA0BC32B1575F20026B3A0 /* VideoPlayerViewModel.swift */,
 				CDAA0BE22B163F870026B3A0 /* ReactionsViewModel.swift */,
+				CDFC71962BC9DCB000AB1EE0 /* FeedViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDAA0BE32B163F870026B3A0 /* ReactionsViewModel.swift in Sources */,
+				CDFC71972BC9DCB000AB1EE0 /* FeedViewModel.swift in Sources */,
 				CDAA0BE82B1649AE0026B3A0 /* ReactionsView.swift in Sources */,
 				CDAA0BD72B1625D60026B3A0 /* FeedCellComponent.swift in Sources */,
 				CDAA0BE12B163EEB0026B3A0 /* ReactionsModel.swift in Sources */,
@@ -424,6 +428,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9HBFB9D4T4;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.victorbrito..Challenge-AvantsoftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,6 +451,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9HBFB9D4T4;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.victorbrito..Challenge-AvantsoftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -467,6 +473,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9HBFB9D4T4;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.victorbrito..Challenge-AvantsoftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -485,6 +492,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9HBFB9D4T4;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.victorbrito..Challenge-AvantsoftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -624,6 +632,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -655,6 +664,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
