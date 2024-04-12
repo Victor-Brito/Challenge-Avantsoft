@@ -7,6 +7,7 @@
 import SwiftUI
 
 struct SwipeView: View {
+    let constants = Constants()
     @State private var offset: CGSize = .zero
     @State private var cardRemoved = false
     @State private var cell: FeedCellComponent = FeedCellComponent()
@@ -27,14 +28,14 @@ struct SwipeView: View {
                                         }
                                     }
                                     .onEnded { gesture in
-                                        if abs(offset.width) > 100 {
-                                            if offset.width > 0 {
+                                        if abs(offset.width) > constants.maxSwipe {
+                                            if offset.width > constants.minSwipe {
                                                 reactionsModel.incrementFire()
                                             } else {
                                                 reactionsModel.incrementHeart()
                                             }
                                             cardRemoved = true
-                                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                                            DispatchQueue.main.asyncAfter(deadline: .now() + constants.cardRemoveDispatchTime) {
                                                 /// Este dispatchqueue faz com que a view seja adicionada novamente após o swipe
                                                 cell = FeedCellComponent()
                                                 cardRemoved = false

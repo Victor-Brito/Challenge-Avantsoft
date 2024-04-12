@@ -7,6 +7,7 @@
 import SwiftUI
 
 struct DetailsView: View {
+    let constants = Constants()
     var look: Look
 
     var body: some View {
@@ -20,13 +21,13 @@ struct DetailsView: View {
                         image
                             .resizable()
                             .aspectRatio(contentMode: .fill)
-                            .frame(width: 40, height: 40)
+                            .frame(width: constants.profilePictureWidth, height: constants.profilePictureHeight)
                             .clipShape(Circle())
                     case .failure:
                         Image(systemName: "person.circle")
                             .resizable()
                             .aspectRatio(contentMode: .fill)
-                            .frame(width: 40, height: 40)
+                            .frame(width: constants.profilePictureWidth, height: constants.profilePictureHeight)
                             .clipShape(Circle())
                             .foregroundColor(.gray)
                     @unknown default:
@@ -38,7 +39,7 @@ struct DetailsView: View {
                 Text(look.body)
                     .font(.headline)
                     .foregroundColor(.white)
-                    .shadow(color: .black, radius: 1)
+                    .shadow(color: .black, radius: constants.shadowRadius)
             }
         }
 }
