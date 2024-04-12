@@ -11,8 +11,6 @@ Create a simple app featuring a TikTok like video feed
 - O teste foi refatorado no dia 12/04/2024 O objetivo desse refactor foi criar mais testes unitários e extinguir os magic numbers no código, criando uma parte específica para as constantes, algumas estruturas de arquitetura foram alteradas, tendo em vista que o objetivo era também refatorar o código de maneira que seguisse o clean architecture
 - O target mínimo é IOS 17.0
 
-
-
 ## Aprendizados
 
 O projeto simula um feed do aplicativo TikTok, onde através de um arquivo .json é possível extrair um vídeo e suas informações como; título do vídeo e foto de perfil do usuário
