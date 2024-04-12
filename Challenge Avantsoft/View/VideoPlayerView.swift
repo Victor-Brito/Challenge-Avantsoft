@@ -2,27 +2,22 @@
 //  ContentView.swift
 //  Challenge Avantsoft
 //
-//  Created by Victor Brito on 27/11/23.
+//  Created by Victor Brito on 27/11/24.
 //
 import SwiftUI
 import AVKit
 
 struct VideoPlayerView: View {
-    @ObservedObject var viewModel: VideoPlayerViewModel
+    @State var viewModel = VideoPlayerViewModel()
     
-    var look: Look
-
-    init(viewModel: VideoPlayerViewModel, look: Look) {
-        self.viewModel = viewModel
-        self.look = look
-    }
+    let look: Look
 
     var body: some View {
         ZStack {
             VideoPlayerViewControllerRepresentable(viewModel: viewModel)
                 .edgesIgnoringSafeArea(.all)
                 .onAppear {
-                    viewModel.player?.play()
+                    viewModel.playVideo(url: look.compressedForIOSURL)
                 }
             VStack {
                 DetailsView(look: look)
@@ -49,7 +44,9 @@ struct VideoPlayerViewControllerRepresentable: UIViewControllerRepresentable {
         return controller
     }
 
-    func updateUIViewController(_ uiViewController: AVPlayerViewController, context: Context) {}
+    func updateUIViewController(_ uiViewController: AVPlayerViewController, context: Context) {
+        uiViewController.player = viewModel.player
+    }
 }
 
 

@@ -15,7 +15,6 @@
 		CD692DF82BC9852700C74F11 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = CDAA0BBD2B1566430026B3A0 /* data.json */; };
 		CD692DFA2BC98CD200C74F11 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD692DF92BC98CD200C74F11 /* Constants.swift */; };
 		CD692E412BC9B25100C74F11 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD692E402BC9B25100C74F11 /* DesignSystem.swift */; };
-		CD692E432BC9C02000C74F11 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD692E422BC9C02000C74F11 /* SwiftUIView.swift */; };
 		CDAA0BA92B155AAA0026B3A0 /* ChallengeAvantsoftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BA82B155AAA0026B3A0 /* ChallengeAvantsoftApp.swift */; };
 		CDAA0BAB2B155AAA0026B3A0 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BAA2B155AAA0026B3A0 /* VideoPlayerView.swift */; };
 		CDAA0BAD2B155AAD0026B3A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAA0BAC2B155AAD0026B3A0 /* Assets.xcassets */; };
@@ -30,6 +29,7 @@
 		CDAA0BE32B163F870026B3A0 /* ReactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BE22B163F870026B3A0 /* ReactionsViewModel.swift */; };
 		CDAA0BE52B163FE40026B3A0 /* ReactionButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BE42B163FE40026B3A0 /* ReactionButtonComponent.swift */; };
 		CDAA0BE82B1649AE0026B3A0 /* ReactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0BE72B1649AE0026B3A0 /* ReactionsView.swift */; };
+		CDFC71972BC9DCB000AB1EE0 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC71962BC9DCB000AB1EE0 /* FeedViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +57,6 @@
 		CD28EE912B178BAF0021A7D1 /* Challenge_AvantsoftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_AvantsoftTests.swift; sourceTree = "<group>"; };
 		CD692DF92BC98CD200C74F11 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CD692E402BC9B25100C74F11 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
-		CD692E422BC9C02000C74F11 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		CDAA0BA52B155AAA0026B3A0 /* Challenge Avantsoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Challenge Avantsoft.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAA0BA82B155AAA0026B3A0 /* ChallengeAvantsoftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeAvantsoftApp.swift; sourceTree = "<group>"; };
 		CDAA0BAA2B155AAA0026B3A0 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
@@ -74,6 +73,7 @@
 		CDAA0BE22B163F870026B3A0 /* ReactionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionsViewModel.swift; sourceTree = "<group>"; };
 		CDAA0BE42B163FE40026B3A0 /* ReactionButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionButtonComponent.swift; sourceTree = "<group>"; };
 		CDAA0BE72B1649AE0026B3A0 /* ReactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionsView.swift; sourceTree = "<group>"; };
+		CDFC71962BC9DCB000AB1EE0 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +139,6 @@
 				CDAA0BB92B15624D0026B3A0 /* View */,
 				CDAA0BBA2B1562570026B3A0 /* ViewModel */,
 				CDAA0BAE2B155AAD0026B3A0 /* Preview Content */,
-				CD692E422BC9C02000C74F11 /* SwiftUIView.swift */,
 			);
 			path = "Challenge Avantsoft";
 			sourceTree = "<group>";
@@ -195,6 +194,7 @@
 			children = (
 				CDAA0BC32B1575F20026B3A0 /* VideoPlayerViewModel.swift */,
 				CDAA0BE22B163F870026B3A0 /* ReactionsViewModel.swift */,
+				CDFC71962BC9DCB000AB1EE0 /* FeedViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -385,8 +385,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDAA0BE32B163F870026B3A0 /* ReactionsViewModel.swift in Sources */,
+				CDFC71972BC9DCB000AB1EE0 /* FeedViewModel.swift in Sources */,
 				CDAA0BE82B1649AE0026B3A0 /* ReactionsView.swift in Sources */,
-				CD692E432BC9C02000C74F11 /* SwiftUIView.swift in Sources */,
 				CDAA0BD72B1625D60026B3A0 /* FeedCellComponent.swift in Sources */,
 				CDAA0BE12B163EEB0026B3A0 /* ReactionsModel.swift in Sources */,
 				CD28EE722B1667310021A7D1 /* SwipeView.swift in Sources */,

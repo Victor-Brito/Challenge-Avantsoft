@@ -27,3 +27,9 @@ struct ReactionsModel {
     
 }
 
+struct Reactions {
+    let videoID: Int
+    let fireCount: Int
+    let heartCount: Int
+}
+

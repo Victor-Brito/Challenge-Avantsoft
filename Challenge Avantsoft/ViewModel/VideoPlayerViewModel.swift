@@ -10,9 +10,7 @@ import AVKit
 class VideoPlayerViewModel: ObservableObject {
     @Published var player: AVPlayer?
     
-    init(url: URL) {
-        self.player = AVPlayer(url: url)
-        self.player?.play()
+    init() {
 
         /// Verifica quando o video chega ao final fazendo o loop automatico
         NotificationCenter.default.addObserver(forName: .AVPlayerItemDidPlayToEndTime, object: self.player?.currentItem, queue: nil) { [weak self] _ in
@@ -23,5 +21,10 @@ class VideoPlayerViewModel: ObservableObject {
 
     deinit {
         NotificationCenter.default.removeObserver(self)
+    }
+    
+    func playVideo(url: URL)  {
+        self.player = AVPlayer(url: url)
+        self.player?.play()
     }
 }
