@@ -12,7 +12,7 @@ struct ChallengeAvantsoftApp: App {
 
     var body: some Scene {
         WindowGroup {
-            FeedView()
+            TikTokSwipingBehavior()
         }
     }
 }

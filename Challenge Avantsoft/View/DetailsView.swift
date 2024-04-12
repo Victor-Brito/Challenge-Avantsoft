@@ -41,6 +41,7 @@ struct DetailsView: View {
                     .foregroundColor(.white)
                     .shadow(color: .black, radius: constants.shadowRadius)
             }
+        .padding(.top, 40)
         }
 }
 
