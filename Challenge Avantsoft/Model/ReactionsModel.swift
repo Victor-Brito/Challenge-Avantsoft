@@ -8,6 +8,7 @@
 import Foundation
 
 struct ReactionsModel {
+    let constants = Constants()
     var heartCount: Int {
         UserDefaults.standard.integer(forKey: "heartCount")
     }
@@ -17,11 +18,11 @@ struct ReactionsModel {
     }
 
     func incrementHeart() {
-        UserDefaults.standard.set(heartCount + 1, forKey: "heartCount")
+        UserDefaults.standard.set(heartCount + constants.reactionIncrement, forKey: "heartCount")
     }
 
     func incrementFire() {
-        UserDefaults.standard.set(fireCount + 1, forKey: "fireCount")
+        UserDefaults.standard.set(fireCount + constants.reactionIncrement, forKey: "fireCount")
     }
     
 }
