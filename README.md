@@ -8,10 +8,8 @@ Create a simple app featuring a TikTok like video feed
 
 - A branch mais atualizada é a main
 - Comentários feito em portugués para facilitar o code review
-- O target mínimo é IOS 16.4
-- O teste foi refatorado no dia 12/04/2024 O objetivo desse refactor foi criar mais testes unitários e extinguir os magic numbers no código, criando uma parte específica para as constantes
-
-
+- O teste foi refatorado no dia 12/04/2024 O objetivo desse refactor foi criar mais testes unitários e extinguir os magic numbers no código, criando uma parte específica para as constantes, algumas estruturas de arquitetura foram alteradas, tendo em vista que o objetivo era também refatorar o código de maneira que seguisse o clean architecture
+- O target mínimo é IOS 17.0
 
 ## Aprendizados
 
@@ -27,4 +25,4 @@ O projeto simula um feed do aplicativo TikTok, onde através de um arquivo .json
 - Reagir ao vídeo com coração ou fogo indeterminada vezes ✅
 - Swipe para esquerda e direita ✅
 - Reagir com swipe ✅
-- Bonus: criar um feed ❌
+- Bonus: criar um feed ✅
