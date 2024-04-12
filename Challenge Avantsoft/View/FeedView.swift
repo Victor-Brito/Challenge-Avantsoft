@@ -15,7 +15,7 @@ struct FeedView: View {
                 ForEach(viewModel.looks, id: \.self) { look in
                     ZStack {
                         Rectangle()
-                            .fill(Color.blue.opacity(0.6))
+                            .fill(Color.gray.opacity(0.2))
                             .containerRelativeFrame([.horizontal, .vertical])
                         SwipeView(look: look)
                     }
